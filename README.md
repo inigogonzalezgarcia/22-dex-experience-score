@@ -6,7 +6,7 @@ Python 3.10+, standard library only. PowerShell collector. Runs with fictional d
 
 ![Report generated from the demo data](docs/report.webp)
 
-> **Learning in public.** This is a lab I built to learn how digital employee experience (DEX) scoring works. It is inspired by the public descriptions of DEX scores in tools like Nexthink, but it is not affiliated with, endorsed by or a replacement for any product, and I have no hands-on experience with those products. The model, thresholds and weights are my own and are explained in [docs/scoring.md](docs/scoring.md).
+> **Lab.** Built on years of supporting Windows users and executives on site, to put a number on digital employee experience (DEX). It is inspired by the public descriptions of DEX scores in tools like Nexthink, and it is not affiliated with, endorsed by or a replacement for any product. The model, thresholds and weights are my own and are explained in [docs/scoring.md](docs/scoring.md).
 
 ## Why
 
@@ -81,12 +81,12 @@ python -m unittest discover tests      # or: pip install -r requirements-dev.txt
 
 15 tests: metric mapping (good, poor, linear, inverted metrics), rates per active day and metrics nobody collects, category weighting and the very-poor-category cap, the system crash cap, desktops without a battery (category ignored, not zero), optional sentiment that never caps a device, devices with no data this week, site and department roll-ups, week windows and the trend, top-fix ranking and the combined estimate, ticket correlation and the VIP list, JSONL with bad lines skipped and counted (and .NET timestamps with seven decimals), CSV with a BOM and file-type detection, TOML overrides (skipped on Python 3.10), and the demo end to end (all five planted problems in the top 5, outputs written, no JavaScript in the report). Checked on Python 3.10 to 3.13.
 
-**What has not been tested yet:**
+**Next steps for a real fleet:**
 
-- the collector against real devices. Field names (`BootTime`, `PolicyElaspedTimeInSeconds`, `BugcheckCode`), the English-only `netsh` parsing and the battery report XML are written from documentation, not from a fleet,
-- the thresholds against real data. They are reasonable starting points, not benchmarks; a real fleet will need tuning after a few weeks,
-- data from Intune Endpoint Analytics or an RMM tool, which would need a small mapping step to the event types,
-- large fleets: everything is in memory, fine for thousands of devices, not designed for hundreds of thousands of events per day.
+- deploy the collector on a pilot group. Field names (`BootTime`, `PolicyElaspedTimeInSeconds`, `BugcheckCode`), the `netsh` parsing (English output) and the battery report XML follow the Windows documentation,
+- tune the thresholds after a few weeks of real data; they are reasonable starting points,
+- map data from Intune Endpoint Analytics or an RMM tool to the event types, a small step,
+- for very large fleets (hundreds of thousands of events per day), move the processing out of memory; thousands of devices work as is.
 
 ## Background
 
