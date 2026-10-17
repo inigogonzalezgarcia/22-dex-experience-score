@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# Local data and generated output (your real telemetry stays out of Git;
+# the fictional files in sample_data/ are committed on purpose, except the
+# 2 MB events file, which `python -m dexscore demo` regenerates)
+/sample_data/events.jsonl
+/output/
+/events*.jsonl
+/devices*.csv
+/tickets*.csv
+/sentiment*.csv
+/*-events.jsonl
+/*-device.csv
+/collected/
+/dex*.toml
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Local tool folders
+.agents/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
