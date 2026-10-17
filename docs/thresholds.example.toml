@@ -1,0 +1,129 @@
+# Every threshold and weight dexscore uses, with the default values.
+# Copy the parts you want to change into your own file; keys you leave out keep their default.
+# Usage (Python 3.11+): python -m dexscore report devices.csv events.jsonl --config dex.toml
+
+window_days = 7
+weeks = 6
+min_teams_calls = 3
+bands = [4, 6, 8]
+
+# Category weights (re-normalised over the categories a device has data for)
+[categories.performance]
+weight = 0.3
+[categories.stability]
+weight = 0.3
+[categories.network]
+weight = 0.25
+[categories.hardware]
+weight = 0.15
+[categories.sentiment]
+weight = 0.1
+
+# good = scores 10, poor = scores 0, linear in between. agg and category are shown for reference.
+[metrics.boot_seconds]
+good = 60
+poor = 180
+agg = "median"
+category = "performance"
+weight = 1
+[metrics.logon_seconds]
+good = 20
+poor = 90
+agg = "median"
+category = "performance"
+weight = 1
+[metrics.cpu_high_minutes]
+good = 15
+poor = 120
+agg = "minutes_per_day"
+category = "performance"
+weight = 1
+[metrics.mem_high_minutes]
+good = 15
+poor = 120
+agg = "minutes_per_day"
+category = "performance"
+weight = 1
+[metrics.disk_free_pct]
+good = 25
+poor = 5
+agg = "device"
+category = "performance"
+weight = 1
+[metrics.app_crash]
+good = 0
+poor = 1.0
+agg = "per_day"
+category = "stability"
+weight = 1
+[metrics.app_hang]
+good = 0
+poor = 1.5
+agg = "per_day"
+category = "stability"
+weight = 1
+[metrics.system_crash]
+good = 0
+poor = 0.4
+weight = 2
+agg = "per_day"
+category = "stability"
+[metrics.wifi_signal_pct]
+good = 70
+poor = 40
+agg = "mean"
+category = "network"
+weight = 1
+[metrics.wifi_disconnect]
+good = 0
+poor = 3
+agg = "per_day"
+category = "network"
+weight = 1
+[metrics.network_latency_ms]
+good = 60
+poor = 250
+agg = "median"
+category = "network"
+weight = 1
+[metrics.teams_call]
+good = 0.05
+poor = 0.35
+agg = "poor_ratio"
+category = "network"
+weight = 1
+[metrics.vpn_failure]
+good = 0
+poor = 1.0
+agg = "per_day"
+category = "network"
+weight = 1
+[metrics.battery_health_pct]
+good = 80
+poor = 50
+agg = "device"
+category = "hardware"
+weight = 1
+[metrics.ram_gb]
+good = 16
+poor = 4
+agg = "device"
+category = "hardware"
+weight = 1
+[metrics.sentiment]
+good = 4.5
+poor = 1.5
+agg = "sentiment"
+category = "sentiment"
+weight = 1
+
+[caps]
+system_crash = 5.0
+very_poor_category = 3.0
+category_margin = 3.0
+
+[fixes]
+min_devices = 3
+battery_replace_below = 60
+disk_low_below = 10
+show = 10
