@@ -1,0 +1,121 @@
+device,user,department,site,floor,model,os_build,ram_gb,disk_free_pct,battery_health_pct,vip
+LIS-D-005,joao.almeida,Sales,Lisbon,2,Fabrikam Tower 5,26100.6584,16,46.2,,no
+LIS-D-010,sofia.garnier,Sales,Lisbon,1,Fabrikam Tower 5,26100.6584,16,39.7,,no
+LIS-D-015,alvaro.petit,HR,Lisbon,3,Fabrikam Tower 5,26100.6584,16,58.4,,no
+LIS-D-020,elena.dubois,Marketing,Lisbon,2,Fabrikam Tower 5,26100.6584,16,36.9,,no
+LIS-D-025,beatriz.silva,Sales,Lisbon,1,Fabrikam Tower 5,26100.6584,16,33.1,,no
+LIS-D-030,louis.dubois,Marketing,Lisbon,3,Fabrikam Tower 5,26100.6584,16,18.1,,no
+LIS-D-035,manon.bernard,Finance,Lisbon,2,Fabrikam Tower 5,26100.6584,16,23.5,,no
+LIS-D-040,joao.lopes,Sales,Lisbon,1,Fabrikam Tower 5,26100.6584,16,23.2,,no
+LIS-L-001,ana.lopes,HR,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,58.7,94.9,no
+LIS-L-002,hugo.delgado,Engineering,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,36.2,83.1,no
+LIS-L-003,tiago.costa,Finance,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,30.4,96.6,no
+LIS-L-004,marta.garnier,Engineering,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,25.7,83.9,no
+LIS-L-006,lucia.lopes,Sales,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,13.1,93.8,no
+LIS-L-007,claire.navarro,Operations,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,40.5,87.8,no
+LIS-L-008,pedro.romero,Sales,Lisbon,2,Fabrikam UltraSlim 13,26100.6584,16,52.1,98.0,no
+LIS-L-009,lucia.ferreira,HR,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,19.8,87.5,no
+LIS-L-011,julien.delgado,Finance,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,31.9,89.1,no
+LIS-L-012,camille.martin,Operations,Lisbon,3,Fabrikam UltraSlim 13,26100.6584,16,15.2,91.6,no
+LIS-L-013,pedro.ortega,HR,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,30.0,91.1,no
+LIS-L-014,pablo.santos,Operations,Lisbon,2,Fabrikam ProBook 14 G2,22631.5909,8,19.8,56.9,no
+LIS-L-016,claire.laurent,Sales,Lisbon,1,Fabrikam UltraSlim 13,26100.6584,16,40.1,87.0,no
+LIS-L-017,claire.martin,Engineering,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,52.0,83.5,no
+LIS-L-018,nicolas.laurent,Engineering,Lisbon,3,Fabrikam ProBook 14 G2,22631.5909,8,13.2,51.5,no
+LIS-L-019,rui.silva,Marketing,Lisbon,1,Fabrikam UltraSlim 13,26100.6584,16,21.4,85.1,no
+LIS-L-021,marta.ortega,Operations,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,17.1,83.8,no
+LIS-L-022,beatriz.ferreira,Operations,Lisbon,1,Fabrikam UltraSlim 13,26100.6584,16,43.7,93.8,no
+LIS-L-023,marta.navarro,Marketing,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,33.3,86.8,no
+LIS-L-024,camille.costa,Finance,Lisbon,3,Fabrikam UltraSlim 13,26100.6584,16,18.7,90.0,no
+LIS-L-026,nicolas.vidal,Finance,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,34.7,80.0,no
+LIS-L-027,camille.romero,Finance,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,49.0,83.1,no
+LIS-L-028,beatriz.garnier,Finance,Lisbon,1,Fabrikam UltraSlim 13,26100.6584,16,43.8,90.5,no
+LIS-L-029,carla.gil,Finance,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,37.1,92.5,yes
+LIS-L-031,diego.castro,HR,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,46.5,95.2,no
+LIS-L-032,irene.petit,Sales,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,45.4,89.6,no
+LIS-L-033,manon.navarro,Marketing,Lisbon,3,Fabrikam UltraSlim 13,26100.6584,16,28.7,95.5,no
+LIS-L-034,beatriz.almeida,Marketing,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,55.1,90.3,no
+LIS-L-036,tiago.navarro,Finance,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,35.4,92.5,no
+LIS-L-037,camille.bernard,Sales,Lisbon,1,Fabrikam ProBook 14 G4,26100.6584,16,3.5,88.7,yes
+LIS-L-038,camille.serrano,Finance,Lisbon,2,Fabrikam ProBook 14 G4,26100.6584,16,49.8,87.2,no
+LIS-L-039,sofia.dubois,Marketing,Lisbon,3,Fabrikam ProBook 14 G4,26100.6584,16,30.6,97.3,no
+MAD-D-005,hugo.dubois,Marketing,Madrid,4,Fabrikam Tower 5,26100.6584,16,60.5,,no
+MAD-D-010,pablo.castro,Engineering,Madrid,3,Fabrikam Tower 5,26100.6584,32,60.7,,no
+MAD-D-015,claire.garnier,Operations,Madrid,4,Fabrikam Tower 5,26100.6584,16,52.8,,no
+MAD-D-020,elena.castro,Finance,Madrid,3,Fabrikam Tower 5,26100.6584,16,14.6,,no
+MAD-D-025,ana.laurent,Sales,Madrid,4,Fabrikam Tower 5,26100.6584,16,58.2,,no
+MAD-D-030,hugo.gil,Engineering,Madrid,3,Fabrikam Tower 5,26100.6584,32,52.3,,no
+MAD-D-035,rui.laurent,Finance,Madrid,4,Fabrikam Tower 5,26100.6584,16,24.0,,no
+MAD-D-040,pablo.romero,Sales,Madrid,3,Fabrikam Tower 5,26100.6584,16,18.7,,no
+MAD-D-045,ana.petit,Sales,Madrid,4,Fabrikam Tower 5,26100.6584,16,44.7,,no
+MAD-D-050,elena.vidal,Finance,Madrid,3,Fabrikam Tower 5,26100.6584,16,60.7,,no
+MAD-L-001,ines.costa,Finance,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,60.7,96.3,no
+MAD-L-002,sofia.santos,Operations,Madrid,1,Fabrikam ProBook 14 G4,26100.6584,16,52.6,78.9,no
+MAD-L-003,irene.almeida,Marketing,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,13.4,83.2,no
+MAD-L-004,marta.costa,Sales,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,57.6,93.5,no
+MAD-L-006,joao.petit,Operations,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,39.8,96.4,no
+MAD-L-007,diego.navarro,HR,Madrid,1,Fabrikam UltraSlim 13,26100.6584,16,41.2,90.7,no
+MAD-L-008,lucia.castro,Sales,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,42.8,84.4,no
+MAD-L-009,diego.ferreira,Sales,Madrid,4,Fabrikam ProBook 14 G4,26100.6584,16,16.3,84.4,no
+MAD-L-011,irene.castro,Finance,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,29.7,90.0,yes
+MAD-L-012,camille.vidal,Sales,Madrid,1,Fabrikam ProBook 14 G2,22631.5909,8,9.7,52.5,no
+MAD-L-013,joao.ortega,Sales,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,60.0,83.8,no
+MAD-L-014,carla.laurent,Finance,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,39.5,91.1,no
+MAD-L-016,camille.petit,Marketing,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,17.7,86.9,no
+MAD-L-017,diego.martin,Engineering,Madrid,1,Fabrikam ProBook 14 G4,26100.6584,16,54.6,84.2,no
+MAD-L-018,beatriz.delgado,Engineering,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,56.0,87.7,no
+MAD-L-019,joao.bernard,Engineering,Madrid,4,Fabrikam ProBook 14 G4,26100.6584,16,59.4,85.1,no
+MAD-L-021,laura.vidal,Engineering,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,45.7,85.8,no
+MAD-L-022,manon.laurent,Engineering,Madrid,1,Fabrikam ProBook 14 G4,26100.6584,16,21.5,88.0,no
+MAD-L-023,marta.rocha,Sales,Madrid,3,Fabrikam ProBook 14 G2,22631.5909,8,16.3,45.6,no
+MAD-L-024,diego.ortega,Sales,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,26.8,81.1,yes
+MAD-L-026,lucia.serrano,Engineering,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,41.9,78.3,no
+MAD-L-027,ana.santos,Finance,Madrid,1,Fabrikam ProBook 14 G4,26100.6584,16,40.8,83.4,no
+MAD-L-028,elena.moreau,Sales,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,17.4,93.8,no
+MAD-L-029,nicolas.almeida,Sales,Madrid,4,Fabrikam ProBook 14 G4,26100.6584,16,24.7,79.8,no
+MAD-L-031,carla.ferreira,Operations,Madrid,3,Fabrikam ProBook 14 G2,22631.5909,8,15.2,49.8,no
+MAD-L-032,pablo.navarro,Sales,Madrid,1,Fabrikam ProBook 14 G2,22631.5909,8,18.2,48.7,no
+MAD-L-033,pablo.silva,Marketing,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,24.5,91.8,no
+MAD-L-034,sofia.navarro,Operations,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,33.7,88.8,no
+MAD-L-036,louis.garnier,Operations,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,38.7,81.8,no
+MAD-L-037,rui.lopes,Operations,Madrid,1,Fabrikam ProBook 14 G4,26100.6584,16,53.5,79.6,no
+MAD-L-038,carla.moreau,Finance,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,58.7,95.3,yes
+MAD-L-039,pablo.vidal,Sales,Madrid,4,Fabrikam UltraSlim 13,26100.6584,16,47.6,85.3,no
+MAD-L-041,marta.dubois,Finance,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,36.8,80.6,no
+MAD-L-042,carla.vidal,Engineering,Madrid,1,Fabrikam ProBook 14 G4,26100.6584,16,40.1,79.0,no
+MAD-L-043,claire.santos,Finance,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,48.4,80.0,no
+MAD-L-044,ana.moreau,Operations,Madrid,2,Fabrikam ProBook 14 G4,26100.6584,16,37.9,91.3,yes
+MAD-L-046,marta.santos,Finance,Madrid,3,Fabrikam ProBook 14 G4,26100.6584,16,35.8,78.1,no
+MAD-L-047,rui.vidal,Sales,Madrid,1,Fabrikam ProBook 14 G2,22631.5909,8,11.2,57.8,no
+MAD-L-048,nicolas.serrano,Operations,Madrid,2,Fabrikam ProBook 14 G2,22631.5909,8,14.9,50.7,no
+MAD-L-049,beatriz.santos,Finance,Madrid,4,Fabrikam ProBook 14 G4,26100.6584,16,46.1,95.3,no
+PAR-D-005,tiago.bernard,Engineering,Paris,1,Fabrikam Tower 5,26100.6584,32,52.1,,no
+PAR-D-010,ines.garnier,HR,Paris,2,Fabrikam Tower 5,26100.6584,16,45.0,,no
+PAR-D-015,sofia.gil,Sales,Paris,1,Fabrikam Tower 5,26100.6584,16,48.1,,no
+PAR-D-020,camille.ortega,Engineering,Paris,2,Fabrikam Tower 5,26100.6584,32,58.7,,no
+PAR-D-025,tiago.vidal,Engineering,Paris,1,Fabrikam Tower 5,26100.6584,32,14.6,,no
+PAR-D-030,beatriz.bernard,Operations,Paris,2,Fabrikam Tower 5,26100.6584,16,55.9,,no
+PAR-L-001,ines.ortega,Sales,Paris,1,Fabrikam UltraSlim 13,26100.6584,16,15.0,95.8,no
+PAR-L-002,julien.costa,Marketing,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,58.6,81.0,no
+PAR-L-003,nicolas.navarro,Engineering,Paris,1,Fabrikam UltraSlim 13,26100.6584,16,28.5,81.3,no
+PAR-L-004,julien.ferreira,Finance,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,56.4,87.6,no
+PAR-L-006,claire.costa,Operations,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,38.2,95.5,no
+PAR-L-007,pablo.petit,Engineering,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,35.9,80.2,no
+PAR-L-008,joao.laurent,Engineering,Paris,2,Fabrikam UltraSlim 13,26100.6584,16,57.1,94.8,no
+PAR-L-009,manon.dubois,Sales,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,25.7,87.8,no
+PAR-L-011,sofia.delgado,HR,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,32.7,91.9,no
+PAR-L-012,hugo.ortega,Operations,Paris,2,Fabrikam ProBook 14 G2,22631.5909,8,16.9,39.4,no
+PAR-L-013,manon.rocha,Sales,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,32.6,87.5,no
+PAR-L-014,louis.romero,Marketing,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,54.6,91.6,no
+PAR-L-016,rui.almeida,Sales,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,13.8,92.7,no
+PAR-L-017,ines.romero,Operations,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,53.3,87.3,no
+PAR-L-018,joao.castro,Operations,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,28.4,95.0,no
+PAR-L-019,laura.ferreira,Marketing,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,28.4,86.6,no
+PAR-L-021,pedro.santos,Operations,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,43.3,90.4,no
+PAR-L-022,claire.ferreira,Operations,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,15.5,78.3,no
+PAR-L-023,tiago.almeida,Engineering,Paris,1,Fabrikam UltraSlim 13,26100.6584,16,53.2,97.2,no
+PAR-L-024,laura.navarro,HR,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,37.3,89.3,no
+PAR-L-026,nicolas.rocha,Operations,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,38.8,94.3,no
+PAR-L-027,laura.costa,Sales,Paris,1,Fabrikam ProBook 14 G2,22631.5909,8,11.2,43.0,no
+PAR-L-028,nicolas.silva,Marketing,Paris,2,Fabrikam ProBook 14 G4,26100.6584,16,57.0,81.1,no
+PAR-L-029,ines.navarro,Engineering,Paris,1,Fabrikam ProBook 14 G4,26100.6584,16,48.8,83.7,no
